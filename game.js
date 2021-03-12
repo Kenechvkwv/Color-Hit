@@ -52,7 +52,7 @@ class playGame extends Phaser.Scene {
     //adding background music
     this.backgroundMusic = this.sound.add("jaunty", { loop: true });
     //play background music
-    //this.backgroundMusic.play();
+    this.backgroundMusic.play();
     let graphics = this.make.graphics({
       x: 0,
       y: 0,
